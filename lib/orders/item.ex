@@ -11,14 +11,6 @@ defmodule Exlivery.Orders.Item do
     unity_price
     |> Decimal.cast()
     |> build_item(description, category, quantity)
-
-    {:ok,
-     %__MODULE__{
-       description: description,
-       category: category,
-       unity_price: unity_price,
-       quantity: quantity
-     }}
   end
 
   def build(_description, _category, _unity_price, _quantity), do: {:error, "Invalid parameters"}
