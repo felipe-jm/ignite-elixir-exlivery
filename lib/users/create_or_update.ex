@@ -1,4 +1,4 @@
-defmodule Elivery.Users.CreateOrUpdate do
+defmodule Exlivery.Users.CreateOrUpdate do
   alias Exlivery.Users.Agent, as: UserAgent
   alias Exlivery.Users.User
 

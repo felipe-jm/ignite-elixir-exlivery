@@ -11,7 +11,7 @@
 ## :information_source: How To Use
 
 ```bash
-# In production..
+# In development..
 ```
 
 ## :heavy_check_mark: Running the tests
