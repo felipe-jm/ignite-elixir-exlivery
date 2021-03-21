@@ -26,7 +26,7 @@ defmodule Exlivery.Orders.CreateOrUpdate do
          unity_price: unity_price,
          quantity: quantity
        }) do
-    case Item.build(description, category, quantity, unity_price) do
+    case Item.build(description, category, unity_price, quantity) do
       {:ok, item} -> item
       {:error, _reason} = error -> error
     end
