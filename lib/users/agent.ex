@@ -1,4 +1,4 @@
-defmodule Exlivery.User.Agent do
+defmodule Exlivery.Users.Agent do
   alias Exlivery.Users.User
 
   use Agent
