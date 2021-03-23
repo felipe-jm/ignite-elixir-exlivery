@@ -1,7 +1,6 @@
 defmodule Exlivery.Orders.CreateOrUpdateTest do
   use ExUnit.Case
 
-  alias Exlivery.Orders.Agent, as: OrderAgent
   alias Exlivery.Orders.CreateOrUpdate
   alias Exlivery.Users.Agent, as: UserAgent
 
